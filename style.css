@@ -1,0 +1,45 @@
+.header{
+    display: flex;
+    margin: 50px 0 50px 0;
+    justify-content: space-between;
+    width: 1450px;
+
+}
+.input{
+    margin: auto;
+
+    input{
+    padding: 14px 190px 14px 190px;
+    background-image: url(./images/search-heart-fill.svg);
+    /* padding-right: 0%; */
+    background-position: 520px;
+    background-repeat: no-repeat;
+    /* background-color: aqua; */
+    border-color: rgb(198, 197, 197);
+    border-right-color:rgb(198, 197, 197);
+    border-top-color:rgb(198, 197, 197);
+    }
+}
+
+section option{
+    /* margin: auto; */
+    margin-right: 100px;
+    color: rgb(198, 197, 197);
+    option{
+        border: none;
+    }
+}
+
+.icon{
+    margin: auto;
+}
+
+.header .img {
+   display: flex;
+   align-items: center;
+   img{
+       height: 60px;
+       margin-right: -90px;
+   }
+}
+
